@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+body {
+    background-color: #d8d7d5;
+}
+
+:root {
+    --global--: #041e82;
+}
+
+.container {
+    width: 80%;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+}
+
+.header-wrapper img {
+    width: 100px;
+    height: 100px;
+}
+
+.header-list {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    color: var(--global--);
+}
+
+.header-list li :hover {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    transition: 300ms;
+    font-size: 141%;
+    color: var(--global--);
+
+}
+
+.num {
+    color: var(--global--);
+}
+
+.sec1 {
+    margin-top: 100px;
+}
+
+.sec1-item {
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+
+.sec1-text {
+    font-size: 20px;
+    width: 50%;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sec2 {
+    margin-top: 150px;
+
+}
+
+
+.sec2-item {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.sec2 img {
+    margin: 0 auto;
+    width: 1200px;
+    height: 600px;
+}
+
+.sec3 {
+    margin-top: 150px;
+}
+
+.sec3-item {
+    text-align: center;
+    margin: 0 auto;
+    font-size: 40px;
+}
+
+.card {
+    width: 300px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+}
+
+.card img {
+    width: 300px;
+
+}
+
+.card-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card3 img {
+    width: 400px;
+    height: 420px;
+}
+.sec4-text {
+    opacity: 0.5;
+    font-size: 92%;
+}
+.sec4 {
+    margin-top: 100px;
+}
+.sec4-item {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 160%;
+}
+.name{
+    font-size: 180%;
+}
+.contact-wrapper {
+    background-color: white;
+    width: 80%;
+    border-radius: 15px ;
+    padding: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.sec5-item {
+    font-size: 300%;
+    margin: 0 auto;
+    text-align: center;
+    margin: 60px 0;
+}
+.sec5 {
+    padding: 150px 0;
+}
